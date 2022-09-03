@@ -8,4 +8,4 @@
 * Адаптивная вёрстка
 * Ссылки на официальные источники
 #### Ссылка на проект:
-https://berealdude.github.io/russian-travel/ 
+https://berealdude.github.io/Project-by-Vlad/
