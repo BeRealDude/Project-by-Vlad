@@ -1,0 +1,14 @@
+.cover__link{
+    width: 100%;
+    height: 640px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 320px) {
+    .cover__link{
+        height: 200px;
+    }
+}
