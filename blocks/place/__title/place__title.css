@@ -11,6 +11,18 @@
     width: 440px;
 }
 
+.place:nth-child(2) .place__title{
+    padding-top: 9%;
+}
+
+.place:nth-child(3) .place__title{
+    padding-top: 9%;
+}
+
+.place:nth-child(5) .place__title{
+    padding-top: 9%;
+}
+
 @media (max-width: 768px) {
     .place__title{
         font-size: 42px;
