@@ -14,13 +14,13 @@
     opacity: 0.8;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .wrapper-link{
         white-space: nowrap;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 650px) {
     .wrapper-link {
         display: flex;
         flex-direction: column;

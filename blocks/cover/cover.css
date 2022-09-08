@@ -6,16 +6,21 @@
     position: relative;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1050px) {
     .cover{
         width: 100%;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 650px) {
     .cover{
-        width: 320px;
-        height: 200px;
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 425px) {
+    .cover{
+        min-height: 200px;
     }
 }
 

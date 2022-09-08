@@ -1,19 +1,19 @@
 .intro{
-    width: 690px;
-    min-height: 429px;
-    padding: 8.91% 34.6% 0% 11.6%;
+    max-width: 690px;
+    align-self: baseline;
+    padding-left: 12%;
+    padding-top: 9.2%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .intro{
-        width: 720px;
         padding: 0;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 650px) {
     .intro{
-        width: 288px;
-        padding: 0;
+        margin-top: 30.4%;
+        padding: 0 5.6%;
     }
 }

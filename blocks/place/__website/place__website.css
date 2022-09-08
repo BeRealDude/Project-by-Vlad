@@ -4,8 +4,8 @@
     align-self: end;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 650px) {
     .place__website {
-        padding-left: 10%;
+        padding-left: 5%;
     }
 }

@@ -8,7 +8,7 @@
     margin: 0;
     grid-row: 1/-1;
     grid-column: 1/-1;
-    width: 440px;
+    max-width: 440px;
 }
 
 .place:nth-child(2) .place__title{
@@ -23,18 +23,17 @@
     padding-top: 9%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .place__title{
         font-size: 42px;
          line-height: 46px;
-         width: 327px;
+         max-width: 327px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 650px) {
     .place__title{
         font-size: 32px;
         line-height: 35px;
-        padding-left: 9%;
     }
 }

@@ -5,14 +5,14 @@
     padding: 7.45% 3.9% 2%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .footer{
         display: flex;
         padding: 11.99% 3.3% 3.3%;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 650px) {
     .footer {
         display: flex;
         padding: 22.5% 3.3% 8.5%;

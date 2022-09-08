@@ -13,11 +13,18 @@
     bottom: 293px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 650px) {
     .cover__title{
-        width: 79%;
+        width: 86%;
+        font-size: 72px;
+        line-height: 76px;
+        top: 38px;
+    }
+}
+
+@media (max-width: 425px){
+    .cover__title{
         font-size: 32px;
         line-height: 35px;
-        top: 59px;
     }
 }

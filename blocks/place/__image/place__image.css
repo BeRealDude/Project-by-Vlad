@@ -4,9 +4,8 @@
     grid-row: 3/5;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 650px) {
     .place__image{
-        width: 85%;
-        padding-left: 7%;
+        width: 100%;
     }
 }

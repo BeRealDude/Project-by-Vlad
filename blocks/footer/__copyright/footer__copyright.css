@@ -9,13 +9,13 @@
     margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .footer__copyright{
-        white-space: nowrap;
+        
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 650px) {
     .footer__copyright{
         padding-top: 48px;
     }

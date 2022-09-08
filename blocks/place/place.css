@@ -1,33 +1,33 @@
 .place{
     display: grid;
-    grid-template-columns: 460px 460px;
-    grid-template-rows: 152px 48px 152px 26px 282px;
+    grid-template-columns: 460px 484px;
     column-gap: 40px;
-    padding-bottom: 8.16%;
+    margin-bottom: 8.16%;
     min-height: 660px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1050px) {
     .place{
-        width: 97.5%;
         column-gap: 32px;
+        grid-template-columns: minmax(460px, 484px);
+        margin: 0 4.9% 8.1%;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .place{
-        grid-template-columns: 340px 340px;
+        grid-template-columns: minmax(340px, 340px);
         column-gap: 28px;
-        grid-template-rows: 92px 48px 182px 25px;
         min-height: 535px;
         padding-bottom: 10.2%;
+        margin: 0 3.28% 9.9%;
+        row-gap: 25px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 650px) {
     .place{
-        width: 320px;
         display: block;
-        padding: 18% 0 0;
+        margin: 18% 0;
     }
 }

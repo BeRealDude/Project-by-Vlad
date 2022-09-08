@@ -7,7 +7,7 @@
     padding: 2.2% 3.8% 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 650px) {
     .header{
         padding: 5.6% 3.8% 0;
     }
