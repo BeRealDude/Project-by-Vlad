@@ -12,18 +12,6 @@
     }
 }
 
-@media (max-width: 650px) {
-    .cover{
-        min-height: 640px;
-    }
-}
-
-@media (max-width: 425px) {
-    .cover{
-        min-height: 200px;
-    }
-}
-
 .cover:hover .cover__overlay{
     opacity: 0.8;
     transition: 0.3s;

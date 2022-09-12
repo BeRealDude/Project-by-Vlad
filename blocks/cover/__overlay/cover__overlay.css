@@ -2,17 +2,24 @@
     background-color: rgb(42, 44, 47);
     opacity: 0.3;
     width: 100%;
-    height: 640px;
+    min-height: 740px;
+    position: absolute;
+}
+
+@media (max-width: 1050px) {
+    .cover__overlay{
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 900px) {
+    .cover__overlay{
+        min-height: 480px;
+    }
 }
 
 @media (max-width: 650px) {
     .cover__overlay{
-        height: 640px;
-    }
-}
-
-@media (max-width: 425px) {
-    .cover__overlay{
-        height: 200px;
+        min-height: 62.5vmin;
     }
 }

@@ -6,6 +6,8 @@
 
 @media (max-width: 650px) {
     .place__website {
-        padding-left: 5%;
+        grid-column: 1/1;
+        grid-row: 2/2;
+        margin: 0 5%;
     }
 }

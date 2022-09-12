@@ -1,11 +1,18 @@
 .place__image{
     width: 100%;
     grid-column: 1/1;
-    grid-row: 3/5;
+    grid-row: 2/5;
+}
+
+@media (max-width: 1050px) {
+    .place__image{
+        grid-row: 2/4;
+    }
 }
 
 @media (max-width: 650px) {
     .place__image{
         width: 100%;
+        grid-row: 3/4;
     }
 }

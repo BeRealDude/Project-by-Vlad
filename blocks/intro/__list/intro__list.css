@@ -3,17 +3,9 @@
     list-style: none;
     color: #FFFFFF;
     padding: 0;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 0.75rem;
     line-height: 1.5;
-}
-
-.accent-quantity{
-    font-weight: normal;
-}
-
-.accent-unesko{
-    font-weight: 900;
 }

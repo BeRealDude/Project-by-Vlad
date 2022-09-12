@@ -5,15 +5,20 @@
     padding-top: 9.2%;
 }
 
+@media (max-width: 1050px) {
+    .intro{
+        padding-left: 4.81%;
+    }
+}
+
 @media (max-width: 900px) {
     .intro{
-        padding: 0;
+        padding: 11.5% 3.13% 0;
     }
 }
 
 @media (max-width: 650px) {
     .intro{
-        margin-top: 30.4%;
-        padding: 0 5.6%;
+        padding: 20% 5% 0;
     }
 }

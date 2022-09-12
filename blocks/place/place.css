@@ -2,15 +2,15 @@
     display: grid;
     grid-template-columns: 460px 484px;
     column-gap: 40px;
-    margin-bottom: 8.16%;
-    min-height: 660px;
+    margin-bottom: 9.5%;
+    row-gap: max(48px);
 }
 
 @media (max-width: 1050px) {
     .place{
         column-gap: 32px;
-        grid-template-columns: minmax(460px, 484px);
-        margin: 0 4.9% 8.1%;
+        grid-template-columns: minmax(440px, 440px);
+        margin: 0 4.7% 7.82%;
     }
 }
 
@@ -19,15 +19,20 @@
         grid-template-columns: minmax(340px, 340px);
         column-gap: 28px;
         min-height: 535px;
-        padding-bottom: 10.2%;
-        margin: 0 3.28% 9.9%;
+        margin: 0 3.1% 9.4%;
         row-gap: 25px;
     }
 }
 
 @media (max-width: 650px) {
     .place{
-        display: block;
-        margin: 18% 0;
+        display: grid;
+        grid-template-columns: minmax(200px, 650px);
+        row-gap: 32px;
+        margin: 0 0 16%;
+    }
+
+    .place:last-of-type{
+        margin-bottom: 20.7%;
     }
 }

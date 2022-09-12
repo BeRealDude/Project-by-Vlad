@@ -1,0 +1,12 @@
+@media (max-width: 900px) {
+    .footer__navigation{
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 650px) {
+    .footer__navigation {
+        display: flex;
+        flex-direction: column;
+    }
+}
