@@ -15,14 +15,13 @@
 @media (max-width: 900px) {
     .lead{
         max-width: 100%;
-        margin-top: 15%;
+        margin-top: 6.3%;
         
     }
 }
 
 @media (max-width: 720px) {
     .lead{
-        font-size: 2.3rem;
-        line-height: 1.1;
+        margin-top: 15%;
     }
 }
